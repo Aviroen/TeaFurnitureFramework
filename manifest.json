@@ -1,0 +1,14 @@
+{
+  "Name": "Tea's Furniture Framework Furniture Pack /j",
+  "Author": "Teaiscoldagain, Aviroen",
+  "Version": "1.0.0",
+  "MinimumApiVersion": "4.0",
+  "MinimumGameVersion": "1.6",
+  "Description": "A fiddle with code.",
+  "UniqueID": "Teaiscoldagain.<>",
+  "ContentPackFor": {
+    "UniqueID": "leroymilo.FurnitureFramework",
+    "MinimumVersion": "2.0.0"
+  },
+  "UpdateKeys": [ "???" ]
+}
