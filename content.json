@@ -5,7 +5,7 @@
       "Display Name": "Mirror",
       "Rotations": 1, //horizontal/vert not necessary for no rotation of furniture
       "Collisions": {
-        "Width": 1,
+        "Width": 1, //collisions need to be 1 width 1 height for 16x48 "placeable" items
         "Height": 1
       },
       "Placement Restriction": 0, // indoors & outdoors 0=indoors, 1=outdoors, 2=both
@@ -13,7 +13,7 @@
       "Source Rect": {
         "X": 16, //this demarkates the "second" sprite index divisible by 16
         "Y": 0,
-        "Width": 16,
+        "Width": 16, //keep source rect the same so that we don't have to do any offset shenanigans
         "Height": 48
       }
     },
@@ -38,13 +38,13 @@
       "Rotations": 1, //horizontal/vert not necessary for no rotation of furniture
       "Collisions": {
         "Width": 1,
-        "Height": 2
+        "Height": 2 //even though it is technically 16x48, to keep the height at "2" leaves the topmost part on the front "layer" aka the player will walk behind it
       },
       "Placement Restriction": 0, // indoors & outdoors 0=indoors, 1=outdoors, 2=both
       "Placement Type": "Normal",
       "Source Image": "assets/tea_furniture.png",
       "Source Rect": {
-        "X": 0,
+        "X": 0, //imagine this as the sprite index starting at 0
         "Y": 0,
         "Width": 16,
         "Height": 48
