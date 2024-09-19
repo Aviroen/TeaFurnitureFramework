@@ -1,6 +1,26 @@
 {
   "Format": 2,
   "Furniture": {
+    "{{ModId}}_Catalogue": { //add catalogue furniture item if wanted
+      "Display Name": "Teaiscoldagain Catalogue",
+      "Price": 100,
+      "Rotations": 1,
+      "Collisions": {
+        "Width": 1,
+        "Height": 1
+      },
+      "Placement Restriction": 2,
+      "Source Image": "assets/tea_furniture.png",
+      "Source Rect": {
+        "X": <CHANGE>,
+        "Y": <CHANGE>,
+        "Width": 16,
+        "Height": 16
+      },
+      "Exclude from Random Sales": true,
+      "Shop Id": "{{ModId}}_Catalogue",
+      "Shows in Shops": [ "Carpenter", "{{ModId}}_Catalogue" ]
+    },
     "{{ModId}}_Mirror": { //format for 'already decorated' furniture
       "Display Name": "Mirror",
       "Rotations": 1, //horizontal/vert not necessary for no rotation of furniture
@@ -15,7 +35,8 @@
         "Y": 0,
         "Width": 16, //keep source rect the same so that we don't have to do any offset shenanigans
         "Height": 48
-      }
+      },
+      "Shows in Shops": [ "{{ModId}}_Catalogue" ]
     },
     "{{ModId}}_Bag": { //format for 'already decorated' furniture
       "Display Name": "Bag",
@@ -31,7 +52,8 @@
         "Y": 0,
         "Width": 16,
         "Height": 48
-      }
+      },
+      "Shows in Shops": [ "{{ModId}}_Catalogue" ]
     },
     "{{ModId}}_Dresser": { //format for 'slotted' furniture
       "Display Name": "Dresser",
@@ -59,7 +81,8 @@
           },
           "Debug Color": "Blue"
         }
-      ]
+      ],
+      "Shows in Shops": [ "{{ModId}}_Catalogue" ]
     }
   }
 }
