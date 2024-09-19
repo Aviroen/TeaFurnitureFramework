@@ -13,7 +13,7 @@
       "Source Rect": {
         "X": 0,
         "Y": 0,
-        "Width": 16,
+        "Width": 16, //this needs to be downsized to 16, since original image is 64x192
         "Height": 48
       }
     },
@@ -29,7 +29,7 @@
       "Source Rect": {
         "X": 0,
         "Y": 0,
-        "Width": 16,
+        "Width": 16, //this needs to be downsized to 16, since original image is 64x192
         "Height": 48
       },
       "Slots": { //NOT CONFIGURED, THIS IS A COPY AND PASTE
