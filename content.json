@@ -38,7 +38,7 @@
       },
       "Shows in Shops": [ "{{ModId}}_Catalogue" ]
     },
-    "{{ModId}}_Bag": { //format for 'already decorated' furniture
+    "{{ModId}}_Bag": { //format for 'table' items
       "Display Name": "Bag",
       "Rotations": 1, //horizontal/vert not necessary for no rotation of furniture
       "Collisions": {
@@ -49,6 +49,23 @@
       "Source Image": "assets/tea_furniture.png",
       "Source Rect": {
         "X": 32, //this demarkates the "third" sprite index, divisible by 16
+        "Y": 0,
+        "Width": 16,
+        "Height": 48
+      },
+      "Shows in Shops": [ "{{ModId}}_Catalogue" ]
+    },
+        "{{ModId}}_PrefabDresser": { //format for 'already decorated' items
+      "Display Name": "Premade Dresser",
+      "Rotations": 1, //horizontal/vert not necessary for no rotation of furniture
+      "Collisions": {
+        "Width": 1,
+        "Height": 2
+      },
+      "Placement Restriction": 0, // indoors & outdoors 0=indoors, 1=outdoors, 2=both
+      "Source Image": "assets/tea_furniture.png",
+      "Source Rect": {
+        "X": 48, //this demarkates the "fourth" sprite index, divisible by 16
         "Y": 0,
         "Width": 16,
         "Height": 48
