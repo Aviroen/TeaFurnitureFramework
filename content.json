@@ -1,58 +1,51 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Leroymilo/FurnitureFramework/main/doc/schemas/content.json",
-
-	"Format": 2,
-
-	"Furniture": {
-"{{ModID}}.table_test": {
-			"Display Name": "Table Test",
-
-			"Rotations": 2,
-			// "Rotations": ["Horizontal", "Vertical"],
-			// keys used in all other directional values
-			"Collisions": {
-				"Horizontal": 	{
-					"Width": 2, "Height": 1
-				},
-				"Vertical": 	{
-					"Width": 1, "Height": 2
-				}
-			},
-
-			"Placement Restriction": 2,
-
-			"Source Image": "assets/table.png",
-			"Source Rect": {
-				"Horizontal":	{"X": 0,	"Y": 0, "Width": 32, "Height": 32},
-				"Vertical":		{"X": 32,	"Y": 0, "Width": 16, "Height": 48}
-			},	// in pixels
-
-			"Slots": {
-				"Horizontal": [
-					{
-						"Area": {"X": 0, "Y": 11, "Width": 16, "Height": 13},
-						"Debug Color": "Blue"
-					},
-					{
-						"Area": {"X": 16, "Y": 11, "Width": 16, "Height": 13},
-						"Debug Color": "Green"
-					}
-				],
-				"Vertical": [
-					{
-						"Area": {"X": 0, "Y": 8, "Width": 16, "Height": 16},
-						"Debug Color": "Blue"
-					},
-					{
-						"Area": {"X": 0, "Y": 24, "Width": 16, "Height": 16},
-						"Debug Color": "Green",
-						"Depth": 1
-					}
-				]
-				// The Area rectangle is in pixels, and is relative to the sprite for each rotation.
-			},
-
-			"Shows in Shops": ["{{ModID}}.custom_catalogue"]
-		}
-}
+  "Format": 2,
+  "Furniture": {
+    "{{ModId}}_Dresser": { //format for 'already decorated' furniture
+      "Display Name": "MirrorDresser",
+      "Rotations": 1, //horizontal/vert not necessary for no rotation of furniture
+      "Collisions": {
+        "Width": 1,
+        "Height": 2
+      },
+      "Placement Restriction": 0, // indoors & outdoors 0=indoors, 1=outdoors, 2=both
+      "Source Image": "assets/teafurniture.png",
+      "Source Rect": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 48
+      }
+    },
+    "{{ModId}}_Bleh": { //format for 'blank' furniture NOT CONFIGURED PROPERLY
+      "Display Name": "MirrorDresser",
+      "Rotations": 1, //horizontal/vert not necessary for no rotation of furniture
+      "Collisions": {
+        "Width": 1,
+        "Height": 2
+      },
+      "Placement Restriction": 0, // indoors & outdoors 0=indoors, 1=outdoors, 2=both
+      "Source Image": "assets/teafurniture.png",
+      "Source Rect": {
+        "X": 0,
+        "Y": 0,
+        "Width": 16,
+        "Height": 48
+      },
+      "Slots": { //NOT CONFIGURED, THIS IS A COPY AND PASTE
+        "Area": {
+          "X": 0,
+          "Y": 10,
+          "Width": 16,
+          "Height": 16
+        },
+        "Draw Shadow": true,
+        "Depth": {
+          "Tile": 0,
+          "Sub": 0
+        },
+        "Condition": "ITEM_CONTEXT_TAG Input {{ModId}}_Toppers" //figure out how the hell custom context tags work
+      }
+    }
+  }
 }
