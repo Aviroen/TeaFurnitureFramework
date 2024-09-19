@@ -21,7 +21,7 @@
       "Shop Id": "{{ModId}}_Catalogue",
       "Shows in Shops": [ "Carpenter", "{{ModId}}_Catalogue" ]
     },
-    "{{ModId}}_Mirror": { //format for 'already decorated' furniture
+    "{{ModId}}_Mirror": { //format for 'table' items
       "Display Name": "Mirror",
       "Rotations": 1, //horizontal/vert not necessary for no rotation of furniture
       "Collisions": {
