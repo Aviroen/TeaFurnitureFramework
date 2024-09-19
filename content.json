@@ -6,7 +6,7 @@
       "Rotations": 1, //horizontal/vert not necessary for no rotation of furniture
       "Collisions": {
         "Width": 1,
-        "Height": 2
+        "Height": 3 //height 3 because it's 16*3 = 48
       },
       "Placement Restriction": 0, // indoors & outdoors 0=indoors, 1=outdoors, 2=both
       "Source Image": "assets/teafurniture.png",
@@ -22,7 +22,7 @@
       "Rotations": 1, //horizontal/vert not necessary for no rotation of furniture
       "Collisions": {
         "Width": 1,
-        "Height": 2
+        "Height": 3 //height 3 because it's 16*3 = 48
       },
       "Placement Restriction": 0, // indoors & outdoors 0=indoors, 1=outdoors, 2=both
       "Source Image": "assets/teafurniture.png",
