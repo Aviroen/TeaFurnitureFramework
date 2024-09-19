@@ -35,9 +35,9 @@
       "Slots": { //NOT CONFIGURED, THIS IS A COPY AND PASTE
         "Area": {
           "X": 0,
-          "Y": 10,
+          "Y": 0,
           "Width": 16,
-          "Height": 16
+          "Height": 48 //testing if we can get away with the slots being the same exact size as the "table", so that we can put the "table topper" directly on top
         },
         "Draw Shadow": true,
         "Depth": {
