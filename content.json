@@ -33,7 +33,7 @@
         "Height": 48
       }
     },
-    "{{ModId}}_Dresser": { //format for 'blank' furniture NOT CONFIGURED PROPERLY
+    "{{ModId}}_Dresser": { //format for 'slotted' furniture
       "Display Name": "Dresser",
       "Rotations": 1, //horizontal/vert not necessary for no rotation of furniture
       "Collisions": {
