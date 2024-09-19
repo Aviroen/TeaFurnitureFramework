@@ -11,7 +11,7 @@
       "Placement Restriction": 0, // indoors & outdoors 0=indoors, 1=outdoors, 2=both
       "Source Image": "assets/tea_furniture.png",
       "Source Rect": {
-        "X": 16,
+        "X": 16, //this demarkates the "second" sprite index divisible by 16
         "Y": 0,
         "Width": 16,
         "Height": 48
@@ -27,7 +27,7 @@
       "Placement Restriction": 0, // indoors & outdoors 0=indoors, 1=outdoors, 2=both
       "Source Image": "assets/tea_furniture.png",
       "Source Rect": {
-        "X": 32,
+        "X": 32, //this demarkates the "third" sprite index, divisible by 16
         "Y": 0,
         "Width": 16,
         "Height": 48
