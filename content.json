@@ -17,6 +17,22 @@
         "Height": 48
       }
     },
+    "{{ModId}}_Bag": { //format for 'already decorated' furniture
+      "Display Name": "Bag",
+      "Rotations": 1, //horizontal/vert not necessary for no rotation of furniture
+      "Collisions": {
+        "Width": 1,
+        "Height": 1
+      },
+      "Placement Restriction": 0, // indoors & outdoors 0=indoors, 1=outdoors, 2=both
+      "Source Image": "assets/tea_furniture.png",
+      "Source Rect": {
+        "X": 32,
+        "Y": 0,
+        "Width": 16,
+        "Height": 48
+      }
+    },
     "{{ModId}}_Dresser": { //format for 'blank' furniture NOT CONFIGURED PROPERLY
       "Display Name": "Dresser",
       "Rotations": 1, //horizontal/vert not necessary for no rotation of furniture
