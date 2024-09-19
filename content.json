@@ -49,7 +49,7 @@
         "Width": 16,
         "Height": 48
       },
-      "Slots": [
+      "Slots": [//keep this the same, it does not need to be touched unless the object is larger than 16x48
         {
           "Area": {
             "X": 0,
